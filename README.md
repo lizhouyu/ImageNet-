@@ -38,7 +38,7 @@ run `pip install -r requirements.txt`
 ```
 
 # Expected Result
-* 'x' represents a digit from 0 to 9
+* 'x' represents a digit from 0 to 9  
 imagenet/  
 ├─ devkit/  
 │  ├─ ILSVRC2012_devkit_t12/  

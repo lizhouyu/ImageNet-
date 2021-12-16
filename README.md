@@ -33,7 +33,7 @@ run `pip install -r requirements.txt`
         shuffle=True
     )
     # use the dataset
-    for n_batch, (images, labels) in enumerate(train_data_loader):
+    for n_batch, (images, labels) in enumerate(data_loader):
         #TODO: your code here
 ```
 

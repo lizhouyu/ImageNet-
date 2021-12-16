@@ -38,6 +38,7 @@ run `pip install -r requirements.txt`
 ```
 
 # Expected Result
+* 'x' represents a digit from 0 to 9
 imagenet/  
 ├─ devkit/  
 │  ├─ ILSVRC2012_devkit_t12/  
@@ -50,13 +51,13 @@ imagenet/
 │  │  ├─ readme.txt  
 ├─ test/  
 │  ├─ test/  
-│  │  ├─ ILSVRC2012_test_********.JPEG (100000 image)  
+│  │  ├─ ILSVRC2012_test_xxxxxxxx.JPEG (100000 image)  
 ├─ train/  
-│  ├─ n*******(1000 folders, each folder contains a bunch of images with the same category)/  
-│  │  ├─ n*******_***,JPEG(around 1300 picture each folders)  
+│  ├─ nxxxxxxx (1000 folders, each folder contains a bunch of images with the same category)/  
+│  │  ├─ nxxxxxxx_xxx,JPEG (around 1300 picture each folders)  
 ├─ val/  
-│  ├─ ***(1000 folders from 1 to 1000)/  
-│  │  ├─ ILSVRC2012_val_********.JPEG (several val images)  
+│  ├─ xxx (1000 folders from 1 to 1000)/  
+│  │  ├─ ILSVRC2012_val_xxxxxxxx.JPEG (several val images)  
 ├─ ILSVRC2012_devkit_t12.tar.gz  
 ├─ ILSVRC2012_img_test_v10102019.tar  
 ├─ ILSVRC2012_img_train.tar_file  

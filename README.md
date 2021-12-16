@@ -1,4 +1,4 @@
-# ImageNet-
+# ImageNet-Parser
 Process ImageNet 2012 dataset
 
 # Environment Setup
